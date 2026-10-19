@@ -1,5 +1,5 @@
 
-```markdown
+
 # CNN-LSTM for Time Series Forecasting
 
 A CNN-LSTM model for the Kaggle competition **Forecasting Mini-Course Sales**. The pipeline forecasts total daily sales with a convolutional-recurrent network, then distributes the aggregate forecast across the 75 `(country, store, product)` series using historical seasonal proportions.
